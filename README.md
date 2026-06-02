@@ -3,6 +3,12 @@ TaCos is a lightweight, highly stable Transformer-based language model implement
 
 ---
 
+
+This script may be freely tested, used, and modified for private purposes. Commercial use is expressly prohibited (based on CC BY-NC 4.0).
+
+---
+
+
 # TaCos: Tau-Cosine Attention Language Model
 
 TaCos is a lightweight, highly stable Transformer-based language model implemented in PyTorch. It replaces standard dot-product attention with a **Tau-Cosine Attention** mechanism, normalizing query and key vectors to a unit hypersphere. This approach eliminates gradient explosion, stabilizes early training, and provides explicit control over the model's "focus" via a temperature parameter ($\tau$).
